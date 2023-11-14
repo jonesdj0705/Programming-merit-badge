@@ -107,6 +107,17 @@ public class Example {
             i++;        // Equivalent to i = i + 1.
         }
 
+        // To break out of a while loop, you can use a break statement
+        int j = 0;
+        while (true) {
+            System.out.println("j = " + j);
+            if (j < 5) {
+                System.out.println("Breaking out of this loop using a break statement!");
+                break;
+            }
+            j++;
+        }
+
         
         /*
         *   Getting user input
